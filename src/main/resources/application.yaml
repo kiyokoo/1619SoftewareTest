@@ -1,0 +1,22 @@
+spring:
+# 配置MySQL数据库
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/diary?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: 991205
+  freemarker:
+    suffix: .ftl
+    cache: false
+
+# 配置mybatis映射路径
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+
+# 配置日子显示SQL语句
+logging:
+  level:
+    com:
+      diary:
+        db:
+          mapper : debug

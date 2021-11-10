@@ -1,0 +1,185 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    width: 100%;
+    height: 52px;
+    background-color: #fff;
+}
+.header-index{
+    float: left;
+    width: 33%;
+    height: 52px;
+    line-height: 52px;
+    font-size: 14px;
+}
+.header-index a{
+    float: left;
+    text-decoration: none;
+    color: #666;
+    position: relative;
+    left: 20px;
+}
+.header-index a:hover{
+    text-decoration: none;
+    color: #61cbe6;
+}
+.header-title{
+    float: left;
+    width: 34%;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+.header-title a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: #61cbe6;
+    font-weight: bold;
+}
+.header-user{
+    float: left;
+    width: 33%;
+    height: 52px;
+    line-height: 52px;
+    font-size: 16px;
+}
+.header-user .name{
+    float: right;
+    text-decoration: none;
+    color: #606266;
+    position: absolute;
+    right: 20px;
+}
+
+.user-drop-down{
+    list-style: none;
+    display: none;
+    position: absolute;
+    top: 52px;
+    right: 20px;
+
+}
+.user-drop-down li{
+    width: 80px;
+    height: 35px;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #ebeef5;
+    border-radius: 4px;
+    text-align: center;
+}
+.user-drop-down li a{
+    display: block;
+    width: 80px;
+    height: 26px;
+    line-height: 26px;
+    text-decoration: none;
+    color: #606266;
+    position: relative;
+    top: 4.5px;
+}
+.user-drop-down li a:hover{
+    text-decoration: none;
+    color: #9dd5ee;
+    background-color:#effafd;
+}
+.header-user:hover ul{
+    display: block;
+}
+.header-user .login-before{
+    float: right;
+    text-decoration: none;
+    border: 1px solid #efefef;
+    border-radius: 16px;
+    padding: 5px 15px;
+    margin: 10px 5px;
+    color: #61cbe6;
+    line-height: 18px;
+    position: relative;
+    right: 20px;
+}
+.header-user .login-before:hover{
+    color: #61cbe6;
+    border-color: #61cbe6;
+}
+.content-body{
+    width: 100%;
+    min-height: 1000px;
+    background-color: #dce2e4;
+    padding-top: 20px;
+}
+.content-div{
+    max-width: 1000px;
+    min-height: 300px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.content-div ul{
+    min-height: 720px;
+}
+.content-header{
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px dashed #61cbe6;
+}
+.time{
+    float: left;
+    width: 50%;
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
+    color: #606060;
+    text-align: center;
+}
+.write-diary{
+    float: left;
+    width: 50%;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+.write-diary a{
+    display: inline-block;
+    color: #61cbe6;
+    font-size: 18px;
+    text-decoration: none;
+    border: 1px solid #efefef;
+    border-radius: 50px;
+    width: 40%;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+}
+.write-diary a:hover{
+    border-color: #61cbe6;
+    background-color: #effafd;
+}
+.content-ul ul{
+    list-style: none;
+    color: #666;
+}
+.content-ul li{
+    border-bottom: 1px dotted #efefef;
+    list-style: initial;
+    margin:0 30px;
+    padding: 3px 0;
+    line-height: 30px;
+}
+.title{
+    text-decoration: none;
+    color: #666;
+}
+.title:hover{
+    text-decoration: none;
+    color: #61cbe6;
+}
+.content-time{
+    float: right;
+}

@@ -1,0 +1,39 @@
+.content-p{
+    padding-bottom: 15px;
+}
+.content-div .content{
+    display: block;
+    min-height: 674px;
+    max-width: 1000px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 15px 30px 0 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #61cbe6;
+}
+.content-title{
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.content-title h1{
+    display: inline-block;
+    color: #6b6b6b;
+    font-size: 24px;
+}
+.diary-time{
+    float: left;
+    height: 20px;
+    color: #999;
+    font-size: 14px;
+    margin-left: 30px;
+}
+.diary-book{
+    float: right;
+    margin-right: 30px;
+}
+.diary-book a{
+    text-decoration: none;
+    color: #61cbe6;
+}

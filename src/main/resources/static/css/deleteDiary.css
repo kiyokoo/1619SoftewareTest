@@ -1,0 +1,32 @@
+.write-diary input{
+    background:none;
+    outline:none;
+    display: inline-block;
+    color: #61cbe6;
+    font-size: 18px;
+    border: 1px solid #efefef;
+    border-radius: 50px;
+    width: 40%;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+}
+.write-diary input:hover{
+    border-color: #61cbe6;
+    background-color: #effafd;
+}
+.content-ul ul li{
+    list-style: none;
+    margin-left: 0px;
+}
+.checkbox-inline{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+}
+.title{
+    display: inline-block;
+}
+.li-diary-time{
+    float: right;
+}

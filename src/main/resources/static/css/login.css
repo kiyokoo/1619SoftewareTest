@@ -1,0 +1,79 @@
+.content-div{
+    min-height: 300px;
+}
+.content-div{
+    padding: 30px;
+}
+.login-title{
+    text-align: center;
+    font-size: 20px;
+    color: #939393;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #98e3ec;
+}
+.login-content{
+    width: 100%;
+    text-align: center;
+}
+.login-content-1{
+    width: 100%;
+    margin-top: 20px;
+}
+.login-content label{
+    color: #666;
+    font-weight: bold;
+}
+.login-content input{
+    width: 250px;
+    height: 25px;
+    margin: 10px 0px 10px 50px;
+}
+#password-input{
+    margin: 10px 0px 10px 66px;
+}
+.login-content .auto-login{
+    width: 14px;
+    height: 14px;
+    margin: 15px 10px;
+}
+.auto-login-span{
+    padding-right: 20px;
+    border-right: solid 1px #88e3ec;
+}
+.change-password{
+    display: inline-block;
+    text-decoration: none;
+    color: #666;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: solid 1px #88e3ec;
+}
+.change-password:hover,
+.register:hover{
+    text-decoration: none;
+    color: #61cbe6;
+}
+.register{
+    display: inline-block;
+    text-decoration: none;
+    color: #666;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.login-content .login{
+    display: inline-block;
+    width: 200px;
+    height: 35px;
+    color: #fff;
+    border-radius: 20px;
+    background-color: #61cbe6;
+    border:1px solid #61cbe6;
+}
+.login-content .login:hover{
+    background-color: #81d5eb;
+}
+.login-modal-tip{
+    text-align: center;
+    color: crimson;
+    margin-bottom: 10px;
+}

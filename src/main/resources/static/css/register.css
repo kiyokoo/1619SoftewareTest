@@ -1,0 +1,46 @@
+.register-content{
+    width: 100%;
+    text-align: center;
+}
+.register-content-1{
+    width: 100%;
+    margin-top: 20px;
+}
+.register-content label{
+    color: #666;
+    font-weight: bold;
+}
+.register-content input{
+    width: 250px;
+    height: 25px;
+    margin: 10px 0px 10px 50px;
+}
+#password-input1,
+#password-input2{
+    margin: 10px 0px 10px 66px;
+}
+.register-content .agree-input{
+    width: 14px;
+    height: 14px;
+    margin: 15px 10px;
+}
+.agree a{
+    text-decoration: none;
+    color: #0069ca;
+}
+.agree a:hover{
+    text-decoration: none;
+    color: crimson;
+}
+.register-content .register{
+    display: inline-block;
+    width: 200px;
+    height: 35px;
+    color: #fff;
+    border-radius: 20px;
+    background-color: #61cbe6;
+    border:1px solid #61cbe6;
+}
+.register-content .register:hover{
+    background-color: #81d5eb;
+}
