@@ -1,2 +1,5 @@
 # 1619SoftewareTest
-the course of nuaa, 1619, software test, Qian ju
+The course of NUAA, 1619, Software Test, teacher is Qian ju.
+#
+It's a java project based on Springboot.
+
